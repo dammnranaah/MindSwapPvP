@@ -1,0 +1,15 @@
+name: MindSwapPvP 
+version: 1.0 
+main: com.mindswap.MindSwapPvP 
+api-version: 1.16 
+description: A chaotic PvP mode where players randomly swap bodies. 
+author: YourName 
+commands: 
+\tswapreload: 
+\t\tdescription: Reloads the plugin config. 
+\t\tpermission: mindswitch.admin 
+\t\tusage: /swapreload 
+permissions: 
+\tmindswitch.admin: 
+\t\tdescription: Allows admin to reload the swap config. 
+\t\tdefault: op 
